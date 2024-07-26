@@ -1,0 +1,51 @@
+
+body{
+    background-color: rgb(77, 25, 126);
+}
+
+.painel {
+    margin: auto;
+    background-color: #aa23aa;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#SIM{
+    height: 50px;
+    width: 70px;
+    background-color: #ee8aee ;
+    border-radius: 10px;
+    border: 2px solid #000;
+    color: black;
+    margin-left: -60px;
+}
+
+#NÃO{
+    position: absolute;
+    height: 50px;
+    width: 70px;
+    background-color: #ee8aee ;
+    border-radius: 10px;
+    border: 2px solid #000;
+    color: black;
+    margin-left: 10px;
+    
+}
+
+img {
+    opacity: 2,0px;
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+
+}
